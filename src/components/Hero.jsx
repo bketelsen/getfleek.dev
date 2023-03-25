@@ -53,7 +53,7 @@ export function Hero() {
                 Take control of your $HOME
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Install and manage all the tools you need to be productive. Use a simple command line tool or edit one YAML file and you're off to the races.
+                Install and manage all the tools you need to be productive. Use a simple command line tool or edit one YAML file and you&apos;re off to the races.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/docs/quickstart">Get started</Button>
