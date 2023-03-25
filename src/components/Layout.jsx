@@ -24,13 +24,13 @@ const navigation = [
     links: [
       { title: 'Introduction', href: '/docs/fleek' },
       {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
+        title: 'Bling',
+        href: '/docs/bling',
       },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
+      { title: 'Packages', href: '/docs/packages' },
       {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
+        title: 'Programs',
+        href: '/docs/programs',
       },
       { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
     ],
