@@ -1,7 +1,7 @@
 ---
 title: Getting started
-pageTitle: Fleek - Get your game on.
-description: Own your $HOME.
+pageTitle: Fleek - Own your $HOME.
+description: Fleek is a CLI tool that helps you install the tools you need to be productive quickly.
 ---
 
 Learn how to use Fleek to quickly install and configure the tools you need to be productive. {% .lead %}
