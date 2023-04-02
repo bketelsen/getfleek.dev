@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Logo(props) {
     return (
-        <Image src="/fleek.png" alt="Fleek Logo" />
+        <Image height={40} width={230} src="/fleek.png" alt="Fleek Logo" />
     )
   }
   
