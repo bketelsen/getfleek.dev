@@ -18,4 +18,3 @@ This will create your configuration file and symlink it to `$HOME/.fleek.yml`. O
 
 ![fleek-init.gif](/fleek-init.gif)
 
-We recommend you read through the [Core Concepts](/docs/bling) before you continue.
