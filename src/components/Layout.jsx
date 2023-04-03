@@ -32,7 +32,54 @@ const navigation = [
       {
         title: 'Programs',
         href: '/docs/programs',
-      }    ],
+      }],
+  },
+  {
+    title: 'CLI Reference',
+    links: [
+      {
+        title: 'fleek',
+        href: '/docs/fleek',
+      },
+      { title: 'init', href: '/docs/fleek_init' },
+      { title: 'add', href: '/docs/fleek_add' },
+      { title: 'remove', href: '/docs/fleek_remove' },
+      { title: 'apply', href: '/docs/fleek_apply' },
+      { title: 'update', href: '/docs/fleek_update' },
+      { title: 'sync', href: '/docs/fleek_sync' },
+      { title: 'info', href: '/docs/fleek_info' },
+      { title: 'show', href: '/docs/fleek_show' },
+      { title: 'search', href: '/docs/fleek_search' },
+      { title: 'remote', href: '/docs/fleek_remote' },
+      { title: 'remote add', href: '/docs/fleek_remote_add' },
+      { title: 'remote show', href: '/docs/fleek_remote_show' },
+      { title: 'eject', href: '/docs/fleek_eject' },
+
+
+
+
+ 
+    ],
+  },
+  {
+    title: 'Compare Fleek',
+    links: [
+      {
+        title: 'To Homebrew',
+        href: '/docs/brew',
+      },
+      { title: 'To Stow', href: '/docs/stow' },
+      { title: 'To ChezMoi', href: '/docs/chezmoi' },
+      { title: 'To Nix Home Manager', href: '/docs/nixhome' },
+      {
+        title: 'To Ansible',
+        href: '/docs/ansible',
+      },
+      {
+        title: 'To Hand-rolled Scripts',
+        href: '/docs/diy',
+      },
+    ],
   },
 ]
 

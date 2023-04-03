@@ -1,8 +1,3 @@
----
-title: "fleek completion powershell"
-description: fleek completion powershell
-
----
 ## fleek completion powershell
 
 Generate the autocompletion script for powershell
@@ -33,10 +28,11 @@ fleek completion powershell [flags]
 ### Options inherited from parent commands
 
 ```
+  -q, --quiet     suppress logs
   -v, --verbose   show more detailed output
 ```
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion/)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
 

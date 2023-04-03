@@ -1,8 +1,3 @@
----
-title: "fleek completion bash"
-description: fleek completion bash
-
----
 ## fleek completion bash
 
 Generate the autocompletion script for bash
@@ -45,10 +40,11 @@ fleek completion bash
 ### Options inherited from parent commands
 
 ```
+  -q, --quiet     suppress logs
   -v, --verbose   show more detailed output
 ```
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion/)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
 
