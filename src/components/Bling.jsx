@@ -43,7 +43,7 @@ export function Bling({ level, icon }) {
         </h3>
         <ul role="list" className="divide-y divide-gray-200">
           {actual.Packages.map((pkg) => (
-            <div key={id} className="flex space-x-3">
+            <div key={pkg} className="flex space-x-3">
               <div className="flex-1 space-y-1">
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-medium">{pkg}</h3>
