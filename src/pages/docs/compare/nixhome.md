@@ -1,5 +1,5 @@
 ---
-title: Programs 
+title: to Nix Home Manager
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

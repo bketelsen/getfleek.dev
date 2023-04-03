@@ -12,11 +12,11 @@ Keep reading below to learn more about what Fleek is and how it can help you, or
 
 {% quick-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your system and installing Fleek." /%}
 
-{% quick-link title="Quick Start" icon="presets" href="/docs/quickstart" description="Get up and running in less than five minutes." /%}
+{% quick-link title="First Steps" icon="presets" href="/docs/firststeps" description="Get up and running in less than five minutes." /%}
 
 {% quick-link title="Bling" icon="plugins" href="/docs/bling" description="Choose your destiny with pre-configured Bling levels." /%}
 
-{% quick-link title="Command Line Reference" icon="theming" href="/docs/fleek" description="Reference for the `fleek` command." /%}
+{% quick-link title="Command Line Reference" icon="theming" href="/docs/cli/fleek" description="Reference for the `fleek` command." /%}
 
 {% /quick-links %}
 

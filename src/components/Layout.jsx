@@ -15,7 +15,7 @@ const navigation = [
   {
     title: 'Introduction',
     links: [
-      { title: 'Getting started', href: '/' },
+      { title: 'Fleek', href: '/' },
       { title: 'Installation', href: '/docs/installation' },
       { title: 'First Steps', href: '/docs/firststeps' },
 
@@ -56,27 +56,28 @@ const navigation = [
       { title: 'eject', href: '/docs/cli/fleek_eject' },
     ],
   },
-  {
+  /*{
     title: 'Compare Fleek',
     links: [
       {
         title: 'To Homebrew',
-        href: '/docs/brew',
+        href: '/docs/compare/brew',
       },
-      { title: 'To Stow', href: '/docs/stow' },
-      { title: 'To ChezMoi', href: '/docs/chezmoi' },
-      { title: 'To Nix Home Manager', href: '/docs/nixhome' },
-      { title: 'To Distrobox', href: '/docs/distrobox' },
+      { title: 'To Stow', href: '/docs/compare/stow' },
+      { title: 'To ChezMoi', href: '/docs/compare/chezmoi' },
+      { title: 'To Nix Home Manager', href: '/docs/compare/nixhome' },
+      { title: 'To Distrobox', href: '/docs/compare/distrobox' },
       {
         title: 'To Ansible',
-        href: '/docs/ansible',
+        href: '/docs/compare/ansible',
       },
       {
         title: 'To Hand-rolled Scripts',
-        href: '/docs/diy',
+        href: '/docs/compare/diy',
       },
     ],
   },
+  */
 ]
 
 function GitHubIcon(props) {
