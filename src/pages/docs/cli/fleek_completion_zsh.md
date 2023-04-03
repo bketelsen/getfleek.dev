@@ -1,3 +1,7 @@
+---
+title: "fleek completion zsh"
+description: "fleek completion zsh"
+---
 ## fleek completion zsh
 
 Generate the autocompletion script for zsh
@@ -48,5 +52,5 @@ fleek completion zsh [flags]
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](/docs/cli/fleek_completion/)	 - Generate the autocompletion script for the specified shell
 

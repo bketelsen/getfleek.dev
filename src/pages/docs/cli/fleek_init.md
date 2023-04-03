@@ -1,3 +1,7 @@
+---
+title: "fleek init"
+description: "fleek init"
+---
 ## fleek init
 
 Initialize fleek
@@ -5,11 +9,20 @@ Initialize fleek
 ### Synopsis
 
 Initialize fleek with standard configuration options.
-
 If `--clone` is set, an existing Fleek configuration will be cloned from that repository.
+
 
 ```
 fleek init [flags]
+```
+
+### Examples
+
+```
+fleek init
+fleek init -c git@github.com:you/fleeks
+fleek init -a -c git@github.com:you/fleeks
+
 ```
 
 ### Options
@@ -31,5 +44,5 @@ fleek init [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

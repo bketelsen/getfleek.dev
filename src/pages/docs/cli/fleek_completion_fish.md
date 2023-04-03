@@ -1,3 +1,7 @@
+---
+title: "fleek completion fish"
+description: "fleek completion fish"
+---
 ## fleek completion fish
 
 Generate the autocompletion script for fish
@@ -37,5 +41,5 @@ fleek completion fish [flags]
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](/docs/cli/fleek_completion/)	 - Generate the autocompletion script for the specified shell
 

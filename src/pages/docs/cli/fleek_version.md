@@ -1,3 +1,7 @@
+---
+title: "fleek version"
+description: "fleek version"
+---
 ## fleek version
 
 Print version information
@@ -21,5 +25,5 @@ fleek version [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

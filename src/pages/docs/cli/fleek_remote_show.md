@@ -1,3 +1,7 @@
+---
+title: "fleek remote show"
+description: "fleek remote show"
+---
 ## fleek remote show
 
 Show the remote git repository
@@ -25,5 +29,5 @@ fleek remote show [flags]
 
 ### SEE ALSO
 
-* [fleek remote](fleek_remote.md)	 - Manage or show the remote git repository
+* [fleek remote](/docs/cli/fleek_remote/)	 - Manage or show the remote git repository
 

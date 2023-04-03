@@ -39,26 +39,21 @@ const navigation = [
     links: [
       {
         title: 'fleek',
-        href: '/docs/fleek',
+        href: '/docs/cli/fleek',
       },
-      { title: 'init', href: '/docs/fleek_init' },
-      { title: 'add', href: '/docs/fleek_add' },
-      { title: 'remove', href: '/docs/fleek_remove' },
-      { title: 'apply', href: '/docs/fleek_apply' },
-      { title: 'update', href: '/docs/fleek_update' },
-      { title: 'sync', href: '/docs/fleek_sync' },
-      { title: 'info', href: '/docs/fleek_info' },
-      { title: 'show', href: '/docs/fleek_show' },
-      { title: 'search', href: '/docs/fleek_search' },
-      { title: 'remote', href: '/docs/fleek_remote' },
-      { title: 'remote add', href: '/docs/fleek_remote_add' },
-      { title: 'remote show', href: '/docs/fleek_remote_show' },
-      { title: 'eject', href: '/docs/fleek_eject' },
-
-
-
-
- 
+      { title: 'init', href: '/docs/cli/fleek_init' },
+      { title: 'add', href: '/docs/cli/fleek_add' },
+      { title: 'remove', href: '/docs/cli/fleek_remove' },
+      { title: 'apply', href: '/docs/cli/fleek_apply' },
+      { title: 'update', href: '/docs/cli/fleek_update' },
+      { title: 'sync', href: '/docs/cli/fleek_sync' },
+      { title: 'info', href: '/docs/cli/fleek_info' },
+      { title: 'show', href: '/docs/cli/fleek_show' },
+      { title: 'search', href: '/docs/cli/fleek_search' },
+      { title: 'remote', href: '/docs/cli/fleek_remote' },
+      { title: 'remote add', href: '/docs/cli/fleek_remote_add' },
+      { title: 'remote show', href: '/docs/cli/fleek_remote_show' },
+      { title: 'eject', href: '/docs/cli/fleek_eject' },
     ],
   },
   {
@@ -71,6 +66,7 @@ const navigation = [
       { title: 'To Stow', href: '/docs/stow' },
       { title: 'To ChezMoi', href: '/docs/chezmoi' },
       { title: 'To Nix Home Manager', href: '/docs/nixhome' },
+      { title: 'To Distrobox', href: '/docs/distrobox' },
       {
         title: 'To Ansible',
         href: '/docs/ansible',

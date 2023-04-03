@@ -1,3 +1,7 @@
+---
+title: "fleek remote"
+description: "fleek remote"
+---
 ## fleek remote
 
 Manage or show the remote git repository
@@ -21,7 +25,7 @@ Manage or show the remote git repository
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
-* [fleek remote add](fleek_remote_add.md)	 - Configure fleek to use a remote git repository
-* [fleek remote show](fleek_remote_show.md)	 - Show the remote git repository
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
+* [fleek remote add](/docs/cli/fleek_remote_add/)	 - Configure fleek to use a remote git repository
+* [fleek remote show](/docs/cli/fleek_remote_show/)	 - Show the remote git repository
 

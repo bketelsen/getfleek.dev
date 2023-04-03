@@ -1,3 +1,7 @@
+---
+title: "fleek completion bash"
+description: "fleek completion bash"
+---
 ## fleek completion bash
 
 Generate the autocompletion script for bash
@@ -46,5 +50,5 @@ fleek completion bash
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](/docs/cli/fleek_completion/)	 - Generate the autocompletion script for the specified shell
 

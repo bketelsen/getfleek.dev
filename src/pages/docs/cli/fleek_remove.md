@@ -1,3 +1,7 @@
+---
+title: "fleek remove"
+description: "fleek remove"
+---
 ## fleek remove
 
 Remove a package or program from your configuration
@@ -9,6 +13,14 @@ Use the `--program` flag to specify a program which can also be configured by ni
 
 ```
 fleek remove [package] [package] ... [flags]
+```
+
+### Examples
+
+```
+fleek remove emacs htop
+fleek remove --apply neovim
+
 ```
 
 ### Options
@@ -27,5 +39,5 @@ fleek remove [package] [package] ... [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

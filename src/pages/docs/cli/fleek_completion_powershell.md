@@ -1,3 +1,7 @@
+---
+title: "fleek completion powershell"
+description: "fleek completion powershell"
+---
 ## fleek completion powershell
 
 Generate the autocompletion script for powershell
@@ -34,5 +38,5 @@ fleek completion powershell [flags]
 
 ### SEE ALSO
 
-* [fleek completion](fleek_completion.md)	 - Generate the autocompletion script for the specified shell
+* [fleek completion](/docs/cli/fleek_completion/)	 - Generate the autocompletion script for the specified shell
 

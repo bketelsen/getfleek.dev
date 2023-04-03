@@ -1,3 +1,7 @@
+---
+title: "fleek eject"
+description: "fleek eject"
+---
 ## fleek eject
 
 Manage your home configuration directly, without the .fleek.yml file.
@@ -5,8 +9,8 @@ Manage your home configuration directly, without the .fleek.yml file.
 ### Synopsis
 
 Eject writes your current configuration to disk and removes Fleek's templates.
-
 Changes to .fleek.yml will be ignored; you will modify your Nix configurations directly.
+
 
 ```
 fleek eject [flags]
@@ -27,5 +31,5 @@ fleek eject [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

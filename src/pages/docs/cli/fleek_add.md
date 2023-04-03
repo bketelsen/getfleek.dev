@@ -1,3 +1,7 @@
+---
+title: "fleek add"
+description: "fleek add"
+---
 ## fleek add
 
 Add a new package or program to your configuration
@@ -9,6 +13,14 @@ Use the `--program` flag to specify a program which can also be configured by ni
 
 ```
 fleek add [package] [package] ... [flags]
+```
+
+### Examples
+
+```
+fleek add --apply neovim
+fleek add emacs
+
 ```
 
 ### Options
@@ -27,5 +39,5 @@ fleek add [package] [package] ... [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

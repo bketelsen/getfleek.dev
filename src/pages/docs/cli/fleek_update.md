@@ -1,10 +1,16 @@
+---
+title: "fleek update"
+description: "fleek update"
+---
 ## fleek update
 
 Update installed packages
 
 ### Synopsis
 
-Update installed packages
+Update installed packages.
+Use `--apply` flag to apply the updates.
+
 
 ```
 fleek update [flags]
@@ -26,5 +32,5 @@ fleek update [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

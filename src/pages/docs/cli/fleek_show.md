@@ -1,6 +1,10 @@
+---
+title: "fleek show"
+description: "fleek show"
+---
 ## fleek show
 
-Show currently configured bling level details
+Show bling level details
 
 ### Synopsis
 
@@ -8,6 +12,14 @@ Show packages, managed packages, and aliases added in your current configuration
 
 ```
 fleek show [flags]
+```
+
+### Examples
+
+```
+fleek show
+fleek show --level high
+
 ```
 
 ### Options
@@ -27,5 +39,5 @@ fleek show [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

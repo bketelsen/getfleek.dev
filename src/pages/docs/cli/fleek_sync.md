@@ -1,10 +1,16 @@
+---
+title: "fleek sync"
+description: "fleek sync"
+---
 ## fleek sync
 
 Synchronize configuration with git
 
 ### Synopsis
 
-Synchronize local configuration with remote git repository
+Synchronize local configuration with remote git repository.
+Requires a configured remote repository. See `fleek remote add` for details.
+
 
 ```
 fleek sync [flags]
@@ -25,5 +31,5 @@ fleek sync [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

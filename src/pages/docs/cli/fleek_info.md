@@ -1,3 +1,7 @@
+---
+title: "fleek info"
+description: "fleek info"
+---
 ## fleek info
 
 Show detailed information about a fleek installed package
@@ -7,7 +11,14 @@ Show detailed information about a fleek installed package
 Show detailed information about a fleek installed package
 
 ```
-fleek info [flags]
+fleek info <package> [flags]
+```
+
+### Examples
+
+```
+fleek info fzf
+
 ```
 
 ### Options
@@ -25,5 +36,5 @@ fleek info [flags]
 
 ### SEE ALSO
 
-* [fleek](fleek.md)	 - Fleek makes nix friendly
+* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
 

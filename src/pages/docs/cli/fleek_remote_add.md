@@ -1,3 +1,7 @@
+---
+title: "fleek remote add"
+description: "fleek remote add"
+---
 ## fleek remote add
 
 Configure fleek to use a remote git repository
@@ -8,6 +12,14 @@ Configure fleek to use a remote git repository
 
 ```
 fleek remote add [flags]
+```
+
+### Examples
+
+```
+fleek remote add git@github.com:your/fleeks
+fleek remote add -n origin git@github.com:your/fleeks
+
 ```
 
 ### Options
@@ -26,5 +38,5 @@ fleek remote add [flags]
 
 ### SEE ALSO
 
-* [fleek remote](fleek_remote.md)	 - Manage or show the remote git repository
+* [fleek remote](/docs/cli/fleek_remote/)	 - Manage or show the remote git repository
 
