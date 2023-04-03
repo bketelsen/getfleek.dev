@@ -50,7 +50,9 @@ export function Bling({ level, icon }) {
                   <p className="text-sm text-gray-500"></p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  {actual.PackageMap[pkg].Description}
+                  {actual.PackageMap[pkg].Description.split(/\r?\n/).map((line) => (
+                    <span key={line}>{line}<br /></span>
+                  ))}
                 </p>
               </div>
             </div>
@@ -68,7 +70,9 @@ export function Bling({ level, icon }) {
                   <p className="text-sm text-gray-500"></p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  {actual.ProgramMap[pkg]?.Description }
+                  {actual.ProgramMap[pkg]?.Description.split(/\r?\n/).map((line) => (
+                    <span key={line}>{line}<br /></span>
+                  ))}
                 </p>
               </div>
             </div>
