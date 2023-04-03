@@ -9,7 +9,7 @@ Fleek installs packages in two different ways.
 
 `Packages` are installed as-is. You ask for `neovim`, you get `neovim`.
 
-`Panaged Packages` also include some configuration. You ask for `exa`, you get `exa` with shell aliases already configured for you.
+`Managed Packages` also include some configuration. You ask for `exa`, you get `exa` with shell aliases already configured for you.
 
 ---
 
