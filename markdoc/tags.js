@@ -1,7 +1,16 @@
 import { Callout } from '@/components/Callout'
+import { Bling } from '@/components/Bling'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
+  bling: {
+    selfClosing: true,
+    render: Bling,
+    attributes: {
+      level: { type: String },
+      icon: { type: String },
+    },
+  },
   callout: {
     attributes: {
       title: { type: String },

@@ -22,7 +22,7 @@ const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Core Concepts',
     links: [
       {
         title: 'Bling',
