@@ -39,7 +39,7 @@ export function Bling({ level, icon }) {
           {actual.Description}
         </p>
         <h3 className="mt-4 text-base font-display text-slate-900 dark:text-white">
-          Packages Installed:
+          Additional Packages Installed:
         </h3>
                 <ul role="list" className="divide-y divide-gray-200">
           {actual.Packages.map((pkg) => (

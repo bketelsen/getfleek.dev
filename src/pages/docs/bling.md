@@ -3,7 +3,8 @@ title: Bling
 description: Choose your weapons.
 ---
 
-Fleek's `bling` level lets you choose how much sparkle gets added to your $HOME. Each level adds a few more applications and configuration options.
+Fleek's `bling` level lets you choose how much sparkle gets added to your $HOME. Levels are additive, so if you choose `low` you'll get all the `none` and `low` bling, and if you choose `high` you'll get all the `none`, `low`, `default`, and `high` bling.
+
 
 ---
 
@@ -11,7 +12,7 @@ Fleek's `bling` level lets you choose how much sparkle gets added to your $HOME.
 
 There are four levels of `bling`: `none`, `low`, `default`, and `high`. The `none` level is the bare minimum, and the `high` level is the most bling you can get. The applications installed at each level are listed below.
 
-{% bling level="none" icon="installation" /%}
-{% bling level="low" icon="installation" /%}
-{% bling level="default" icon="installation" /%}
-{% bling level="high" icon="installation" /%}
+{% bling level="none" icon="plugins" /%}
+{% bling level="low" icon="plugins" /%}
+{% bling level="default" icon="plugins" /%}
+{% bling level="high" icon="plugins" /%}
