@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Icon } from '@/components/Icon'
 
 import none from '@/data/none.json'
-import low  from '@/data/low.json'
+import low from '@/data/low.json'
 import dflt from '@/data/default.json'
 import high from '@/data/high.json'
 
@@ -41,21 +41,21 @@ export function Bling({ level, icon }) {
         <h3 className="mt-4 text-base font-display text-slate-900 dark:text-white">
           Additional Packages Installed:
         </h3>
-                <ul role="list" className="divide-y divide-gray-200">
+        <ul role="list" className="divide-y divide-gray-200">
           {actual.Packages.map((pkg) => (
-              <div className="flex space-x-3">
+            <div key={id} className="flex space-x-3">
               <div className="flex-1 space-y-1">
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-medium">{pkg}</h3>
                   <p className="text-sm text-gray-500"></p>
                 </div>
-                                <p className="text-sm text-gray-500">
-{actual.PackageMap[pkg].Description}{pkg.Description }
+                <p className="text-sm text-gray-500">
+                  {actual.PackageMap[pkg].Description}{pkg.Description}
                 </p>
               </div>
             </div>
-        ))}
-      </ul>
+          ))}
+        </ul>
 
       </div>
     </div>
