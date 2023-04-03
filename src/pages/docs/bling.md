@@ -5,6 +5,12 @@ description: Choose your weapons.
 
 Fleek's `bling` level lets you choose how much sparkle gets added to your $HOME. Levels are additive, so if you choose `low` you'll get all the `none` and `low` bling, and if you choose `high` you'll get all the `none`, `low`, `default`, and `high` bling.
 
+Fleek installs packages in two different ways.
+
+`Packages` are installed as-is. You ask for `neovim`, you get `neovim`.
+
+`Panaged Packages` also include some configuration. You ask for `exa`, you get `exa` with shell aliases already configured for you.
+
 ---
 
 ## Levels

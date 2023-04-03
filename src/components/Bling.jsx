@@ -26,7 +26,7 @@ export function Bling({ level, icon }) {
       actual = none;
   }
 
-  console.log(actual)
+  console.log(actual.ProgramMap)
   return (
     <div className="relative border group rounded-xl border-slate-200 dark:border-slate-800">
       <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.sky.50)),var(--quick-links-hover-bg,theme(colors.sky.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.sky.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
@@ -50,7 +50,25 @@ export function Bling({ level, icon }) {
                   <p className="text-sm text-gray-500"></p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  {actual.PackageMap[pkg].Description}{pkg.Description}
+                  {actual.PackageMap[pkg].Description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </ul>
+        <h3 className="mt-4 text-base font-display text-slate-900 dark:text-white">
+          Managed Packages Installed:
+        </h3>
+        <ul role="list" className="divide-y divide-gray-200">
+          { actual.Programs?.map((pkg) => (
+            <div key={pkg} className="flex space-x-3">
+              <div className="flex-1 space-y-1">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-sm font-medium">{pkg}</h3>
+                  <p className="text-sm text-gray-500"></p>
+                </div>
+                <p className="text-sm text-gray-500">
+                  {actual.ProgramMap[pkg]?.Description }
                 </p>
               </div>
             </div>
