@@ -11,16 +11,15 @@ Generate the autocompletion script for the specified shell
 Generate the autocompletion script for fleek for the specified shell.
 See each sub-command's help for details on how to use the generated script.
 
-
 ### Options
 
-```
+```shell
   -h, --help   help for completion
 ```
 
 ### Options inherited from parent commands
 
-```
+```shell
   -q, --quiet     suppress logs
   -v, --verbose   show more detailed output
 ```

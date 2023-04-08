@@ -5,7 +5,7 @@ description: Choose your weapons.
 
 Fleek's `bling` level provides a stable and lightly opinionated starting point for your shell configuration. This lets you choose how much sparkle gets added to your $HOME. Levels are additive, so if you choose `low` you'll get all the `none` and `low` bling, and if you choose `high` you'll get all the `none`, `low`, `default`, and `high` bling.
 
-{% callout type="note" title="Tip: Levels Are Lightweight" %}
+{% callout type="note" title="Tip: Bling Levels Are Lightweight" %}
 The difference between `none` and `high` is really minimal in terms of changes to your environment and disk space usage. Go with `high` or `default` to get a good set of features.
 
 {% /callout %}

@@ -4,33 +4,31 @@ description: "fleek update"
 ---
 ## fleek update
 
-Update installed packages
+Update package index
 
 ### Synopsis
 
-Update installed packages.
+Update package index.
 Use `--apply` flag to apply the updates.
 
-
-```
+```shell
 fleek update [flags]
 ```
 
 ### Options
 
-```
-  -a, --apply   Applying updates.
+```shell
+  -a, --apply   apply updates after updating
   -h, --help    help for update
 ```
 
 ### Options inherited from parent commands
 
-```
+```shell
   -q, --quiet     suppress logs
   -v, --verbose   show more detailed output
 ```
 
 ### SEE ALSO
 
-* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
-
+* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly

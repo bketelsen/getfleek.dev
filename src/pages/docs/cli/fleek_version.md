@@ -6,24 +6,23 @@ description: "fleek version"
 
 Print version information
 
-```
+```shell
 fleek version [flags]
 ```
 
 ### Options
 
-```
+```shell
   -h, --help      help for version
   -v, --verbose   displays additional version information
 ```
 
 ### Options inherited from parent commands
 
-```
+```shell
   -q, --quiet   suppress logs
 ```
 
 ### SEE ALSO
 
-* [fleek](/docs/cli/fleek/)	 - Fleek makes nix friendly
-
+* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
