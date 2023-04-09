@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
 import { Layout } from '@/components/Layout'
+import Script from "next/script"
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
@@ -67,6 +68,21 @@ export default function App({ Component, pageProps }) {
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
       </Head>
+          <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-BXL5YEGWG4"/>
+    <Script
+      id='google-analytics'
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BXL5YEGWG4', {
+            page_path: window.location.pathname,
+          });
+        `,
+        }}
+    />
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
       </Layout>
