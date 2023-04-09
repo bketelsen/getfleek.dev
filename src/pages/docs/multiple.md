@@ -18,7 +18,7 @@ These steps assume you've configured git with your name and email address. If yo
 
 {% /callout %}
 
-The default configuration of Fleek adds a shell alias to change directories into your configuration directory. This is useful for initializing a git repository.
+The default configuration of Fleek adds a shell alias to change directories into your configuration directory. This is useful for initializing a git repository. Use this alias to cd into your configuration directory:
 
 ```shell
 fleeks
