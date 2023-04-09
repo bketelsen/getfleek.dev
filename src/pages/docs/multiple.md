@@ -97,7 +97,7 @@ You should also test that you can connect to GitHub using SSH. See [Connecting t
 Run `fleek init` to initialize Fleek on your new computer. Pass the URL of the repository you created earlier as an argument.
 
 ```shell
-fleek init git@github.com/$GITHUB_USERNAME/$REPOSITORY.git
+fleek init git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
 ```
 
 Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the name of the repository you created earlier.
