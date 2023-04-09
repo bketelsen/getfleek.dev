@@ -78,6 +78,15 @@ See [Installation](/docs/installation) for instructions on how to install Nix an
 
 ### Run `fleek init`
 
+{% callout type="warning" title="Tip: Test Git First" %}
+Make sure your new computer is configured for Git before trying this. See [Configuring Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for more information.
+
+At a minimum, you should configure your name and email address.
+
+You should also test that you can connect to GitHub using SSH. See [Connecting to GitHub with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) for more information. A simple test is to run `ssh git@github.com` and see if you get a response.
+
+{% /callout %}
+
 Run `fleek init` to initialize Fleek on your new computer. Pass the URL of the repository you created earlier as an argument.
 
 ```shell
