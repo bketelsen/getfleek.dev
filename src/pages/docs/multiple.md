@@ -56,7 +56,7 @@ In order for Fleek to make changes to your repository you need to configure your
 Add the GitHub repository as a remote:
 
 ```shell
-git remote add origin git@github.com/$GITHUB_USERNAME/$REPOSITORY.git
+git remote add origin git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
 git branch -M main
 git push -u origin main
 ```
