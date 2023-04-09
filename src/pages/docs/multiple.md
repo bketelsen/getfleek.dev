@@ -63,6 +63,13 @@ git push -u origin main
 
 Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the name of the repository you created.
 
+If you added a README or License file when you created the repository you'll need to pull those changes before you can push your configuration.
+
+```shell
+git pull --autostash --rebase origin main
+git push -u origin main
+```
+
 ## Add a New Computer
 
 Now that you've created a shared repository you can add a new computer.
