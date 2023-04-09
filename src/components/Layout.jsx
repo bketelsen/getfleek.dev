@@ -18,6 +18,8 @@ const navigation = [
       { title: 'Fleek', href: '/' },
       { title: 'Installation', href: '/docs/installation' },
       { title: 'First Steps', href: '/docs/firststeps' },
+      { title: 'Sharing Configs', href: '/docs/multiple' },
+
 
     ],
   },
