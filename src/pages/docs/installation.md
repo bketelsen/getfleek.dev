@@ -24,6 +24,16 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
 ## Install Fleek
 
+### Homebrew
+
+If you have Homebrew installed, you can use the Fleek tap:
+
+```shell
+brew tap ublue-os/homebrew-tap
+brew install fleek
+ ```
+
+### GitHub Releases
 Next you'll need `fleek`. Download it from the [GitHub releases](https://github.com/ublue-os/fleek/releases) link and move it somewhere in your $PATH.
 
 The gzip'd tarball contains a binary, `fleek`, a `man` directory, and a `completions` directory. You can skip the `man` and `completions` directories if you don't need them.
