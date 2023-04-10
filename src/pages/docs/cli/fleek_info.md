@@ -1,39 +1,30 @@
 ---
-title: "fleek info"
-description: "fleek info"
+title: info
+description: Show detailed information about a fleek installed package
 ---
-## fleek info
 
-Show detailed information about a fleek installed package
+# ... info
+`fleek info`
 
-### Synopsis
-
-Show detailed information about a fleek installed package
+## Usage
+> Show detailed information about a fleek installed package
 
 ```shell
-fleek info <package> [flags]
+fleek info <package>
 ```
 
-### Examples
+## Description
 
-```shell
+
+Show detailed information about a fleek installed package
+
+## Examples
+
+```bash
 fleek info fzf
 
 ```
 
-### Options
 
-```shell
-  -h, --help   help for info
-```
-
-### Options inherited from parent commands
-
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

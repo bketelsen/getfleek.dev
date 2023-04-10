@@ -1,28 +1,23 @@
 ---
-title: "fleek version"
-description: "fleek version"
+title: version
+description: Print version information
 ---
-## fleek version
 
-Print version information
+# ... version
+`fleek version`
 
-```shell
-fleek version [flags]
-```
-
-### Options
+## Usage
+> Print version information
 
 ```shell
-  -h, --help      help for version
-  -v, --verbose   displays additional version information
+fleek version
 ```
 
-### Options inherited from parent commands
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-v, --verbose`|displays additional version information|
 
-```shell
-  -q, --quiet   suppress logs
-```
 
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

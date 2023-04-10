@@ -1,42 +1,37 @@
 ---
-title: "fleek remove"
-description: "fleek remove"
+title: remove
+description: Remove a package or program from your configuration
 ---
-## fleek remove
 
-Remove a package or program from your configuration
+# ... remove
+`fleek remove`
 
-### Synopsis
+## Usage
+> Remove a package or program from your configuration
+
+```shell
+fleek remove [package] [package] ...
+```
+
+## Description
+
 
 Remove a package or program from your configuration.
 Use the `--program` flag to specify a program which can also be configured by nix.
 
-```shell
-fleek remove [package] [package] ... [flags]
-```
+## Examples
 
-### Examples
-
-```shell
+```bash
 fleek remove emacs htop
 fleek remove --apply neovim
 
 ```
 
-### Options
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-a, --apply`|apply configuration after removing|
 
-```shell
-  -a, --apply   apply configuration after removing
-  -h, --help    help for remove
-```
 
-### Options inherited from parent commands
-
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

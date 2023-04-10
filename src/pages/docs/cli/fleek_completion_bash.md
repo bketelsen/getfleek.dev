@@ -1,12 +1,20 @@
 ---
-title: "fleek completion bash"
-description: "fleek completion bash"
+title: bash
+description: Generate the autocompletion script for bash
 ---
-## fleek completion bash
 
-Generate the autocompletion script for bash
+# ... completion bash
+`fleek completion bash`
 
-### Synopsis
+## Usage
+> Generate the autocompletion script for bash
+
+```shell
+fleek completion bash
+```
+
+## Description
+
 
 Generate the autocompletion script for the bash shell.
 
@@ -15,42 +23,27 @@ If it is not installed already, you can install it via your OS's package manager
 
 To load completions in your current shell session:
 
-```source <(fleek completion bash)```
+	source <(fleek completion bash)
 
 To load completions for every new session, execute once:
 
-#### Linux
+#### Linux:
 
-```shell
-fleek completion bash > /etc/bash_completion.d/fleek
-```
+	fleek completion bash > /etc/bash_completion.d/fleek
 
-#### macOS
+#### macOS:
 
-```shell
-fleek completion bash > $(brew --prefix)/etc/bash_completion.d/fleek
-```
+	fleek completion bash > $(brew --prefix)/etc/bash_completion.d/fleek
 
 You will need to start a new shell for this setup to take effect.
 
-```shell
-fleek completion bash
-```
 
-### Options
 
-```shell
-  -h, --help              help for bash
-      --no-descriptions   disable completion descriptions
-```
+## Flags
+|Flag|Usage|
+|----|-----|
+|`--no-descriptions`|disable completion descriptions|
 
-### Options inherited from parent commands
 
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek completion](/docs/cli/fleek_completion/)  - Generate the autocompletion script for the specified shell
+---
+**Generated on 10 April 2023**

@@ -1,42 +1,37 @@
 ---
-title: "fleek show"
-description: "fleek show"
+title: show
+description: Show bling level details
 ---
-## fleek show
 
-Show bling level details
+# ... show
+`fleek show`
 
-### Synopsis
+## Usage
+> Show bling level details
+
+```shell
+fleek show
+```
+
+## Description
+
 
 Show packages, managed packages, and aliases added in your current configuration level.
 
-```shell
-fleek show [flags]
-```
+## Examples
 
-### Examples
-
-```shell
+```bash
 fleek show
 fleek show --level high
 
 ```
 
-### Options
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-j, --json`|output in json format|
+|`-l, --level string`|show a different bling level|
 
-```shell
-  -h, --help           help for show
-  -j, --json           output in json format
-  -l, --level string   show a different bling level
-```
 
-### Options inherited from parent commands
-
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

@@ -1,34 +1,31 @@
 ---
-title: "fleek update"
-description: "fleek update"
+title: update
+description: Update package index
 ---
-## fleek update
 
-Update package index
+# ... update
+`fleek update`
 
-### Synopsis
+## Usage
+> Update package index
+
+```shell
+fleek update
+```
+
+## Description
+
 
 Update package index.
 Use `--apply` flag to apply the updates.
 
-```shell
-fleek update [flags]
-```
 
-### Options
 
-```shell
-  -a, --apply   apply updates after updating
-  -h, --help    help for update
-```
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-a, --apply`|apply updates after updating|
 
-### Options inherited from parent commands
 
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

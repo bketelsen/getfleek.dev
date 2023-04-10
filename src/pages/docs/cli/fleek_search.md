@@ -1,45 +1,41 @@
 ---
-title: "fleek search"
-description: "fleek search"
+title: search
+description: Search the package repository
 ---
-## fleek search
 
-Search the package repository
+# ... search
+`fleek search`
 
-### Synopsis
+## Usage
+> Search the package repository
+
+```shell
+fleek search <package>
+```
+
+## Description
+
 
 Search the package repository.
 On first run, `search` will download a local copy of the nix packages index in JSON format.
 
 Update the local package cache by using the `--update` flag.
 
-```shell
-fleek search <package> [flags]
-```
 
-### Examples
+## Examples
 
-```shell
+```bash
 fleek search neovim
 fleek search --update emacs
 
 ```
 
-### Options
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-f, --fuzzy`|search name and description|
+|`-u, --update`|update the package cache|
 
-```shell
-  -f, --fuzzy    search name and description
-  -h, --help     help for search
-  -u, --update   update the package cache
-```
 
-### Options inherited from parent commands
-
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**

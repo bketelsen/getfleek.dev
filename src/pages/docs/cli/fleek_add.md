@@ -1,42 +1,37 @@
 ---
-title: "fleek add"
-description: "fleek add"
+title: add
+description: Add a new package or program to your configuration
 ---
-## fleek add
 
-Add a new package or program to your configuration
+# ... add
+`fleek add`
 
-### Synopsis
+## Usage
+> Add a new package or program to your configuration
+
+```shell
+fleek add [package] [package] ...
+```
+
+## Description
+
 
 Add a new package or program to your configuration.
 Use the `--program` flag to specify a program which can also be configured by nix.
 
-```shell
-fleek add [package] [package] ... [flags]
-```
+## Examples
 
-### Examples
-
-```shell
+```bash
 fleek add --apply neovim
 fleek add emacs
 
 ```
 
-### Options
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-a, --apply`|apply configuration after adding|
 
-```shell
-  -a, --apply   apply configuration after adding
-  -h, --help    help for add
-```
 
-### Options inherited from parent commands
-
-```shell
-  -q, --quiet     suppress logs
-  -v, --verbose   show more detailed output
-```
-
-### SEE ALSO
-
-* [fleek](/docs/cli/fleek/)  - Fleek makes nix friendly
+---
+**Generated on 10 April 2023**
