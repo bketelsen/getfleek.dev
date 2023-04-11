@@ -24,6 +24,24 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
 ## Install Fleek
 
+## Nix Profile
+
+You can install Fleek to your default nix profile with this command:
+
+```bash
+nix profile install github:ublue-os/fleek
+```
+
+This will add Fleek to your default nix profile (don't worry if you don't know what this means yet), which will be available in your $PATH.
+
+### GitHub Releases
+
+Next you'll need `fleek`. Download it from the [GitHub releases](https://github.com/ublue-os/fleek/releases) link and move it somewhere in your $PATH.
+
+The gzip'd tarball contains a binary, `fleek`, a `man` directory, and a `completions` directory. You can skip the `man` and `completions` directories if you don't need them.
+
+Be sure to move `fleek` to somewhere in your $PATH. If you're not sure where that is, try `echo $PATH` to see what directories are in your path.
+
 ### Homebrew
 
 If you have Homebrew installed, you can use the Fleek tap:
@@ -32,10 +50,3 @@ If you have Homebrew installed, you can use the Fleek tap:
 brew tap ublue-os/homebrew-tap
 brew install fleek
  ```
-
-### GitHub Releases
-Next you'll need `fleek`. Download it from the [GitHub releases](https://github.com/ublue-os/fleek/releases) link and move it somewhere in your $PATH.
-
-The gzip'd tarball contains a binary, `fleek`, a `man` directory, and a `completions` directory. You can skip the `man` and `completions` directories if you don't need them.
-
-Be sure to move `fleek` to somewhere in your $PATH. If you're not sure where that is, try `echo $PATH` to see what directories are in your path.

@@ -27,6 +27,10 @@ const navigation = [
     title: 'Core Concepts',
     links: [
       {
+        title: 'Design Philosophy',
+        href: '/docs/design',
+      },
+      {
         title: 'Bling',
         href: '/docs/bling',
       },
