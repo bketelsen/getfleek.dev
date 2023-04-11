@@ -39,6 +39,7 @@ To share configurations with other computers, see https://getfleek.dev/docs/mult
 |`fleek apply`|Apply fleek configuration|
 |`fleek completion`|Generate the autocompletion script for the specified shell|
 |`fleek eject`|Manage your home configuration directly, without the .fleek.yml file.|
+|`fleek generate`|Generate a new home-manager configuration using fleek's templates|
 |`fleek help`|Help about any command|
 |`fleek info`|Show detailed information about a fleek installed package|
 |`fleek init`|Initialize fleek|
@@ -50,4 +51,4 @@ To share configurations with other computers, see https://getfleek.dev/docs/mult
 
 
 ---
-**Generated on 10 April 2023**
+**Generated on 11 April 2023**

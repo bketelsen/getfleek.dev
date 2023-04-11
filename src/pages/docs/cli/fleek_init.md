@@ -41,4 +41,4 @@ fleek init -a
 
 
 ---
-**Generated on 10 April 2023**
+**Generated on 11 April 2023**
