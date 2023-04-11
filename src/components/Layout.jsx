@@ -44,6 +44,7 @@ const navigation = [
         href: '/docs/cli/fleek',
       },
       { title: 'fleek init', href: '/docs/cli/fleek_init' },
+      { title: 'fleek generate', href: '/docs/cli/fleek_generate' },
       { title: 'fleek add', href: '/docs/cli/fleek_add' },
       { title: 'fleek remove', href: '/docs/cli/fleek_remove' },
       { title: 'fleek apply', href: '/docs/cli/fleek_apply' },
