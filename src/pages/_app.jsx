@@ -67,6 +67,19 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
+        <meta property="og:title" content="Fleek - Own Your $HOME" />
+        <meta
+          property="og:description"
+          content="Install and manage all the tools you need to be productive. Use a simple command line tool or edit one YAML file and you're off to the races."
+        />
+        <meta
+          property="og:image"
+          content="/og.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fleek - Own Your $HOME" />
+<meta name="twitter:description" content="Install and manage all the tools you need to be productive. Use a simple command line tool or edit one YAML file and you're off to the races." />
+<meta name="twitter:image" content="/og.jpg"></meta>
       </Head>
           <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-BXL5YEGWG4"/>
     <Script
