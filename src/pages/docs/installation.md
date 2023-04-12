@@ -29,7 +29,7 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 You can install Fleek to your default nix profile with this command:
 
 ```bash
-nix profile install github:ublue-os/fleek
+nix profile install github:ublue-os/fleek/main
 ```
 
 This will add Fleek to your default nix profile (don't worry if you don't know what this means yet), which will be available in your $PATH.
