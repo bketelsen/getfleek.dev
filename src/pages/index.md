@@ -38,7 +38,7 @@ You don't need to master a fancy DSL or spelunk through pages of online manuals 
 
 ### Every Tool At Your Fingertips
 
-Whether you need to install a new programming language's toolset or the latest social media application, Fleek has you covered with the largest set of programs and packages in the world. Add a line to your `.fleek.yml` file and `fleek apply` yourself into freedom.
+Whether you need to install a new programming language's toolset or the latest social media application, Fleek has you covered with the largest set of programs and packages in the world. Add a line to your `.fleek.yml` file and `fleek apply` yourself into freedom. Or just `fleek add` what you need and Fleek will handle the rest for you. 
 
 ### Eject Button Optional
 
