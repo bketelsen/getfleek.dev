@@ -24,6 +24,8 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
 ## Install Fleek
 
+Choose one of these three options. If you're not sure which one to choose, go with the Nix Profile option.
+
 ## Nix Profile
 
 You can install Fleek to your default nix profile with this command:
@@ -36,7 +38,7 @@ This will add Fleek to your default nix profile (don't worry if you don't know w
 
 ### GitHub Releases
 
-Next you'll need `fleek`. Download it from the [GitHub releases](https://github.com/ublue-os/fleek/releases) link and move it somewhere in your $PATH.
+You can also download fleek from the [GitHub releases](https://github.com/ublue-os/fleek/releases) link and move it somewhere in your $PATH.
 
 The gzip'd tarball contains a binary, `fleek`, a `man` directory, and a `completions` directory. You can skip the `man` and `completions` directories if you don't need them.
 
