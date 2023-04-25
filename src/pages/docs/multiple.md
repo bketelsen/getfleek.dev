@@ -109,7 +109,7 @@ Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the 
 Use `nix` to run `fleek apply` to apply the configuration to your new computer.
 
 ```shell
-nix run github:ublue-os/fleek -- join git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
+nix run github:ublue-os/fleek -- apply
 ```
 
 ## Set Your Configuration For Easier Sharing
