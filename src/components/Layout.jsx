@@ -19,8 +19,7 @@ const navigation = [
       { title: 'Installation', href: '/docs/installation' },
       { title: 'First Steps', href: '/docs/firststeps' },
       { title: 'Sharing Configs', href: '/docs/multiple' },
-
-
+      { title: 'Upgrade', href: '/docs/upgrade' },
     ],
   },
   {
