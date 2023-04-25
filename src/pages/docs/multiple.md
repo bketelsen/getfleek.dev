@@ -79,9 +79,11 @@ You should use the same repository for multiple computers. Fleek stores the conf
 
 {% /callout %}
 
-### Install Nix and Fleek
+### Install Nix 
 
-See [Installation](/docs/installation) for instructions on how to install Nix and Fleek.
+See [Installation](/docs/installation) for instructions on how to install Nix.
+
+It is not necessary to install Fleek directly on the new computer. We'll use Nix to run Fleek without installing it, so it can be self-managed.
 
 ### Run `fleek init`
 
@@ -94,20 +96,20 @@ You should also test that you can connect to GitHub using SSH. See [Connecting t
 
 {% /callout %}
 
-Run `fleek init` to initialize Fleek on your new computer. Pass the URL of the repository you created earlier as an argument.
+Use `nix` to run `fleek join` to initialize Fleek on your new computer. Pass the URL of the repository you created earlier as an argument. This ensures that you're using the same version of fleek on all computers.
 
 ```shell
-fleek init git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
+nix run github:ublue-os/fleek -- join git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
 ```
 
 Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the name of the repository you created earlier.
 
 ### Run `fleek apply`
 
-Run `fleek apply` to apply the configuration to your new computer.
+Use `nix` to run `fleek apply` to apply the configuration to your new computer.
 
 ```shell
-fleek apply
+nix run github:ublue-os/fleek -- join git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
 ```
 
 ## Set Your Configuration For Easier Sharing

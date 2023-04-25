@@ -7,7 +7,7 @@ description: Update package index
 `fleek update`
 
 ## Usage
-> Update package index
+> Update package index, installed packages, and fleek itself
 
 ```shell
 fleek update
@@ -28,4 +28,4 @@ Use `--apply` flag to apply the updates.
 
 
 ---
-**Generated on 12 April 2023**
+**Generated on 25 April 2023**

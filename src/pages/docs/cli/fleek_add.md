@@ -16,8 +16,7 @@ fleek add [package] [package] ...
 ## Description
 
 
-Add a new package or program to your configuration.
-Use the `--program` flag to specify a program which can also be configured by nix.
+Add a new package to your configuration.
 
 ## Examples
 
@@ -34,4 +33,4 @@ fleek add emacs
 
 
 ---
-**Generated on 12 April 2023**
+**Generated on 25 April 2023**

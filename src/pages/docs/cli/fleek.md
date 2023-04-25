@@ -20,7 +20,7 @@ Fleek uses the power of `nix` and `home-manager` behind the scenes to give you a
 
 Fleek hides the complexity of `nix` by giving you a CLI and YAML file to manage your installed applications.
 
-To get started, try `fleek init`.
+To get started, see https://getfleek.dev
 
 To share configurations with other computers, see https://getfleek.dev/docs/multiple
 
@@ -35,7 +35,7 @@ To share configurations with other computers, see https://getfleek.dev/docs/mult
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`fleek add`|Add a new package or program to your configuration|
+|`fleek add`|Add a new package to your configuration|
 |`fleek apply`|Apply fleek configuration|
 |`fleek completion`|Generate the autocompletion script for the specified shell|
 |`fleek eject`|Manage your home configuration directly, without the .fleek.yml file.|
@@ -43,7 +43,8 @@ To share configurations with other computers, see https://getfleek.dev/docs/mult
 |`fleek help`|Help about any command|
 |`fleek info`|Show detailed information about a fleek installed package|
 |`fleek init`|Initialize fleek|
-|`fleek remove`|Remove a package or program from your configuration|
+|`fleek join`|Join current computer to existing fleek configuration|
+|`fleek remove`|Remove a package from your configuration|
 |`fleek search`|Search the package repository|
 |`fleek show`|Show bling level details|
 |`fleek update`|Update package index|
@@ -51,4 +52,4 @@ To share configurations with other computers, see https://getfleek.dev/docs/mult
 
 
 ---
-**Generated on 12 April 2023**
+**Generated on 25 April 2023**
