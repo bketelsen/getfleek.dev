@@ -11,17 +11,8 @@ If you're just getting started with Nix, or if you don't care who the Man Behind
 
 ### The Red Pill - The Fleek CLI
 
-After you've installed `fleek`, open a terminal window and run `fleek init`.
+After you've [bootstrapped Fleek](/docs/installation) you can use the `fleek` CLI to manage your system. You can use the `fleek` CLI to install packages, manage your aliases and path, and more.
 
-```shell
-fleek init
-```
-
-This will create your configuration file and symlink it to `$HOME/.fleek.yml`. Open it with your favorite editor and take a look.
-
-![fleek-init.gif](/fleek-init.gif)
-
-From here you'll use the `fleek` CLI and `$HOME/.fleek.yml` to change your configurations.
 
 ### The Blue Pill - The Fleek Generator
 
