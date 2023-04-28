@@ -85,7 +85,7 @@ See [Installation](/docs/installation) for instructions on how to install Nix.
 
 It is not necessary to install Fleek directly on the new computer. We'll use Nix to run Fleek without installing it, so it can be self-managed.
 
-### Run `fleek init`
+### Run `fleek join`
 
 {% callout type="warning" title="Tip: Test Git First" %}
 Make sure your new computer is configured for Git before trying this. See [Configuring Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for more information.
