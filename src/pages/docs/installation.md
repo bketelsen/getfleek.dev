@@ -11,7 +11,7 @@ Fleek has only one dependency: [Nix](https://nixos.org/).
 
 ### Install Nix
 
-We love the [Determinate Systems Installer](https://zero-to-nix.com/), but any `nix` installer is good. f you're on Fedora Silverblue [this script](https://github.com/dnkmmr69420/nix-installer-scripts/blob/main/installer-scripts/silverblue-nix-installer.sh) is the good stuff.
+We love the [Determinate Systems Installer](https://zero-to-nix.com/), but any `nix` installer is good. If you're on Fedora Silverblue, [this script](https://github.com/dnkmmr69420/nix-installer-scripts/blob/main/installer-scripts/silverblue-nix-installer.sh) is the good stuff.
 
 ### Enable Flakes
 
