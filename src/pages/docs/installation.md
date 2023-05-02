@@ -11,7 +11,7 @@ Fleek has only one dependency: [Nix](https://nixos.org/).
 
 ### Install Nix
 
-We love the [Determinate Systems Installer](https://zero-to-nix.com/), but any `nix` installer is good. f you're on Fedora Silverblue [this script](https://github.com/dnkmmr69420/nix-installer-scripts/blob/main/installer-scripts/silverblue-nix-installer.sh) is the good stuff.
+We love the [Determinate Systems Installer](https://zero-to-nix.com/), but any `nix` installer is good. If you're on Fedora Silverblue, [this script](https://github.com/dnkmmr69420/nix-installer-scripts/blob/main/installer-scripts/silverblue-nix-installer.sh) is the good stuff.
 
 ### Enable Flakes
 
@@ -55,11 +55,9 @@ You might see an error telling you that the installation failed because a file a
 
 {% /callout %}
 
-
 *What happened here?* We just installed Nix Home Manager, configured it with your preferences, and applied it to your system. Note that up until this point you haven't even installed Fleek. The power of `nix` did it for you. 
 
 You may need to close and re-open your terminal or even log out to see the changes.
-
 
 ## Deprecated Installation Options
 
@@ -90,4 +88,4 @@ If you have Homebrew installed, you can use the Fleek tap:
 ```shell
 brew tap ublue-os/homebrew-tap
 brew install fleek
- ```
+```
