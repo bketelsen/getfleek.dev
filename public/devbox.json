@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "neovim",
+    "starship",
+    "atuin",
+    "ripgrep",
+    "fzf",
+    "jq",
+    "yq"
+  ],
+  "shell": {
+    "init_hook": "eval \"$(starship init zsh)\";eval \"$(atuin init zsh)\""
+  },
+  "nixpkgs": {
+    "commit": "0470f36b02ef01d4f43c641bbf07020bcab71bf1"
+  }
+}
