@@ -57,9 +57,13 @@ export function Hero() {
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button href="/docs/installation">Get started</Button>
+                <Button href="/docs/devbox" >
+                  New! Fleek for Devbox
+                </Button>
                 <Button href="https://github.com/ublue-os/fleek" variant="secondary">
                   View on GitHub
                 </Button>
+
               </div>
             </div>
           </div>
