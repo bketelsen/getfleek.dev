@@ -354,7 +354,7 @@ install_flow() {
 			# Download archive and checksum file
 			start_task "Downloading version ${version}"
 			local -r archive_name="${TOOL_NAME}_${version}_${platform}.tar.gz"
-			local -r url_root="https://github.com/${GITHUB_REPO}/releases/download/v${version}"
+			local -r url_root="https://github.com/${GITHUB_REPO}/releases/download/${version}"
 
 			local -r checksum_url="${url_root}/checksums.txt"
 			download "${checksum_url}" "${install_tmpdir}/checksums.txt"
