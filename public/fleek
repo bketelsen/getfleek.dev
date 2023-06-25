@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-readonly LAUNCHER_VERSION="0.2.0"
+readonly FLEEK_LAUNCHER_VERSION="0.2.1"
 
 # ========================
 # Customize script
@@ -324,7 +324,7 @@ detect_version() {
 
 	# Not sure what else to do. Try a default version.
 	# 0.4.9 is the first version that supports channels and optional auto-update.
-	echo "0.9.5"
+	echo "0.9.15"
 }
 
 # ==============
@@ -423,8 +423,8 @@ main() {
 		echo "os: ${os}"
 		echo "arch: ${arch}"
 		echo "platform: ${platform}"
-		echo LAUNCHER_VERSION="${LAUNCHER_VERSION}"
-		echo LAUNCHER_PATH="${BASH_SOURCE[0]}"
+		echo FLEEK_LAUNCHER_VERSION="${FLEEK_LAUNCHER_VERSION}"
+		echo FLEEK_LAUNCHER_PATH="${BASH_SOURCE[0]}"
 		echo ${latest_version_var}="${latest_version}"
 		echo auto_update="$(auto_update)"
 		echo bin="${bin}"
@@ -432,8 +432,8 @@ main() {
 	fi
 
 	exec \
-		env LAUNCHER_VERSION="${LAUNCHER_VERSION}" \
-		env LAUNCHER_PATH="${BASH_SOURCE[0]}" \
+		env FLEEK_LAUNCHER_VERSION="${FLEEK_LAUNCHER_VERSION}" \
+		env FLEEK_LAUNCHER_PATH="${BASH_SOURCE[0]}" \
 		env ${latest_version_var}="${latest_version}" \
 		"${bin}" "$@"
 }
