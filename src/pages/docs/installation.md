@@ -41,7 +41,7 @@ Make any changes to the `~/.fleek.yml` file you want... we recommend Bling Level
 Now let's apply your configuration:
 
 ```shell
-fleek -- apply
+fleek apply
 ```
 It will take a bit to download and install everything, but when it's done you should see something like this:
        
