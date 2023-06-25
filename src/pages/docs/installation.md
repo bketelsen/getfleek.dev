@@ -22,15 +22,17 @@ mkdir -p ~/.config/nix
 echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 ```
 
-## Bootstrap Fleek
+## Install Fleek
 
-Rather than downloading and installing Fleek, we're going to use the power of `nix` to run it directly from GitHub. This will let Fleek manage itself, and you'll always have the latest version.
 
-First let's bootstrap `fleek`:
+
+Install `fleek`:
 
 ```shell
-nix run github:ublue-os/fleek -- init
+curl -fsSL https://getfleek.dev/installer | bash
 ```
+
+Run `fleek init`
 
 This will create your configuration file and symlink it to `$HOME/.fleek.yml`. Open it with your favorite editor and take a look.
 
@@ -39,7 +41,7 @@ Make any changes to the `~/.fleek.yml` file you want... we recommend Bling Level
 Now let's apply your configuration:
 
 ```shell
-nix run github:ublue-os/fleek -- apply
+fleek -- apply
 ```
 It will take a bit to download and install everything, but when it's done you should see something like this:
        
@@ -55,7 +57,7 @@ You might see an error telling you that the installation failed because a file a
 
 {% /callout %}
 
-*What happened here?* We just installed Nix Home Manager, configured it with your preferences, and applied it to your system. Note that up until this point you haven't even installed Fleek. The power of `nix` did it for you. 
+*What happened here?* We just installed Nix Home Manager, configured it with your preferences, and applied it to your system. 
 
 You may need to close and re-open your terminal or even log out to see the changes.
 
@@ -68,7 +70,7 @@ These options are deprecated and will be removed in the next release. Fleek is n
 You can install Fleek to your default nix profile with this command:
 
 ```bash
-nix profile install github:ublue-os/fleek/main
+nix profile install github:ublue-os/fleek
 ```
 
 This will add Fleek to your default nix profile (don't worry if you don't know what this means yet), which will be available in your $PATH.
