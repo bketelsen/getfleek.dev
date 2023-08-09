@@ -60,6 +60,12 @@ const navigation = [
       { title: 'fleek eject', href: '/docs/cli/fleek_eject' },
     ],
   },
+  {
+    title: 'Troubleshooting',
+    links: [
+      { title: 'system not found', href: '/docs/troubleshooting/system_not_found' },
+    ],
+  },
   /*{
     title: 'Compare Fleek',
     links: [
