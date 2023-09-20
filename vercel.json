@@ -1,0 +1,5 @@
+{
+        "redirects": [
+          { "source": "/latest.tar.gz", "destination": "https://flakehub.com/f/ublue-os/fleek/*.tar.gz", "permanent": false }
+        ]
+      }
