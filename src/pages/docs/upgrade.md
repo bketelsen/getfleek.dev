@@ -3,7 +3,7 @@ title: Upgrade
 description: How to upgrade fleek.
 ---
 
-Fleek is self-managed as of `v0.9.0`. If you have installed fleek using a deprecated method, you will need to upgrade to the new method.
+Fleek is self-managed as of `v0.9.0`. If you have installed fleek using a deprecated method, you will need to upgrade using the method described below.
 
 ---
 
@@ -16,13 +16,13 @@ Upgrade your configurations to the latest version:
 
 
 ```shell
-nix run github:ublue-os/fleek -- update
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- update
 ```
 
 Now let's apply your configuration:
 
 ```shell
-nix run github:ublue-os/fleek -- apply
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- apply
 ```
 It will take a bit to download and install everything, but when it's done you should see something like this:
        

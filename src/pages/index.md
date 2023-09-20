@@ -4,7 +4,10 @@ pageTitle: Fleek - Own your $HOME.
 description: Fleek is a CLI tool that helps you install the tools you need to be productive quickly.
 ---
 
-Fleek is an all-in-one management system for everything you need to be productive on your computer. {% .lead %}
+Fleek is an all-in-one management system for everything you need to be productive on your computer. Fleek wraps Nix Home Manager, giving you almost all the power of a declarative home configuration without having to learn Nix.{% .lead %}
+
+[![FlakeHub](https://img.shields.io/endpoint?url=https://flakehub.com/f/ublue-os/fleek/badge)](https://flakehub.com/flake/ublue-os/fleek)
+
 
 Keep reading below to learn more about what Fleek is and how it can help you, or use these links to jump to a specific section:
 

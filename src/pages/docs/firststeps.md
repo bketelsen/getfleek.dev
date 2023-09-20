@@ -19,7 +19,7 @@ After you've [bootstrapped Fleek](/docs/installation) you can use the `fleek` CL
 If you're looking for a lightly opinionated Nix Home Manager flake starter, Fleek has you covered. You can either install Fleek according to the [installation instructions](/docs/installation) or you can use the power of Nix to run Fleek *without installing it*.
 
 ```bash
-nix run github:ublue-os/fleek -- generate --help
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- generate --help
 ```
 
 This installs and runs Fleek right over the Internet. Check the options of the `generate` command for more details.

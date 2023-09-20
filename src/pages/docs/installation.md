@@ -15,24 +15,20 @@ We love the [Determinate Systems Installer](https://zero-to-nix.com/), but any `
 
 ### Enable Flakes
 
-After Nix is installed you need to enable [flakes and the nix command](https://nixos.wiki/wiki/Flakes). It can be as simple as this:
+After Nix is installed you need to enable [flakes and the nix command](https://nixos.wiki/wiki/Flakes). This is already done if you use the Determinate Systems installer. Otherwise, it can be as simple as this:
 
 ```shell
 mkdir -p ~/.config/nix
 echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 ```
 
-## Install Fleek
+## Create Your Initial Fleek Configuration
 
-
-
-Install `fleek`:
+We're going to use the power of Nix flakes and the convenience of [FlakeHub](https://flakehub.com) to bootstrap the latest version of Fleek without installing it locally.
 
 ```shell
-curl -fsSL https://getfleek.dev/installer | bash
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- init
 ```
-
-Run `fleek init`
 
 This will create your configuration file and symlink it to `$HOME/.fleek.yml`. Open it with your favorite editor and take a look.
 
@@ -41,8 +37,9 @@ Make any changes to the `~/.fleek.yml` file you want... we recommend Bling Level
 Now let's apply your configuration:
 
 ```shell
-fleek apply
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- apply
 ```
+
 It will take a bit to download and install everything, but when it's done you should see something like this:
        
 ```shell
@@ -50,6 +47,12 @@ It will take a bit to download and install everything, but when it's done you sh
 Activating onFilesChange
 Activating reloadSystemd
  [✓]  Operation completed successfully
+```
+
+After running your first `init` and `apply`, you can use the `fleek` command to manage your fleek configuration.
+
+```shell
+fleek --help
 ```
 
 {% callout type="warning" title="Possible Errors: Existing Files" %}
@@ -64,6 +67,11 @@ You may need to close and re-open your terminal or even log out to see the chang
 ## Deprecated Installation Options
 
 These options are deprecated and will be removed in the next release. Fleek is now self-managing and should be installed with the bootstrap instructions above.
+
+{% callout type="warning" title="Unreachable Code Here" %}
+If you use any of these deprecated installation options, the version of Fleek you install will be listed after the version of Fleek that gets installed when you apply your configuration. This is by design to ensure that Fleek can update itself.
+
+{% /callout %}
 
 ### Nix Profile (Deprecated)
 
