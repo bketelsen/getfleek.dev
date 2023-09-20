@@ -27,7 +27,7 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 We're going to use the power of Nix flakes and the convenience of [FlakeHub](https://flakehub.com) to bootstrap the latest version of Fleek without installing it locally.
 
 ```shell
-nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- init
+nix run "https://getfleek.dev/latest.tar.gz" -- init
 ```
 
 This will create your configuration file and symlink it to `$HOME/.fleek.yml`. Open it with your favorite editor and take a look.
@@ -37,7 +37,7 @@ Make any changes to the `~/.fleek.yml` file you want... we recommend Bling Level
 Now let's apply your configuration:
 
 ```shell
-nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- apply
+nix run "https://getfleek.dev/latest.tar.gz" -- apply
 ```
 
 It will take a bit to download and install everything, but when it's done you should see something like this:

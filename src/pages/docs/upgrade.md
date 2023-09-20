@@ -16,13 +16,13 @@ Upgrade your configurations to the latest version:
 
 
 ```shell
-nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- update
+nix run "https://getfleek.dev/latest.tar.gz" -- update
 ```
 
 Now let's apply your configuration:
 
 ```shell
-nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- apply
+nix run https://getfleek.dev/latest.tar.gz -- apply
 ```
 It will take a bit to download and install everything, but when it's done you should see something like this:
        
