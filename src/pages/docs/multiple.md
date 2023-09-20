@@ -99,7 +99,7 @@ You should also test that you can connect to GitHub using SSH. See [Connecting t
 Use `nix` to run `fleek join` to initialize Fleek on your new computer. Pass the URL of the repository you created earlier as an argument. This ensures that you're using the same version of fleek on all computers.
 
 ```shell
-nix run github:ublue-os/fleek -- join git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- join git@github.com:$GITHUB_USERNAME/$REPOSITORY.git
 ```
 
 Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the name of the repository you created earlier.
@@ -109,7 +109,7 @@ Replace `$GITHUB_USERNAME` with your GitHub username and `$REPOSITORY` with the 
 Use `nix` to run `fleek apply` to apply the configuration to your new computer.
 
 ```shell
-nix run github:ublue-os/fleek -- apply
+nix run "https://flakehub.com/f/ublue-os/fleek/*.tar.gz" -- apply
 ```
 
 ## Set Your Configuration For Easier Sharing
