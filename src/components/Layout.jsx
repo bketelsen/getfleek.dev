@@ -64,6 +64,8 @@ const navigation = [
     title: 'Troubleshooting',
     links: [
       { title: 'system not found', href: '/docs/troubleshooting/system_not_found' },
+
+      { title: 'flake does not provide attribute', href: '/docs/troubleshooting/flake_does_not_provide_attribute' },
     ],
   },
   /*{

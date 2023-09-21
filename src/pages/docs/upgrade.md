@@ -12,8 +12,14 @@ Fleek is self-managed as of `v0.9.0`. If you have installed fleek using a deprec
 
 Rather than downloading and installing Fleek, we're going to use the power of `nix` to run it directly from GitHub. This will let Fleek manage itself, and you'll always have the latest version.
 
-Upgrade your configurations to the latest version:
+Update your generated flakes to the latest version:
 
+```shell
+nix run "https://getfleek.dev/latest.tar.gz" -- write
+```
+
+
+Update flake references:
 
 ```shell
 nix run "https://getfleek.dev/latest.tar.gz" -- update
@@ -24,6 +30,7 @@ Now let's apply your configuration:
 ```shell
 nix run https://getfleek.dev/latest.tar.gz -- apply
 ```
+
 It will take a bit to download and install everything, but when it's done you should see something like this:
        
 ```shell
