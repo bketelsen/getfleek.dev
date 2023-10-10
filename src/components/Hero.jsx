@@ -56,12 +56,12 @@ export function Hero() {
                 Install and manage all the tools you need to be productive. Use a simple command line tool or edit one YAML file and you&apos;re off to the races.
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
-                <Button href="/docs/installation">Get started</Button>
+                <Button href="/docs/installation">Fleek for Nix</Button>
                 <Button href="/docs/devbox" >
-                  New! Fleek for Devbox
+                  Fleek for Devbox
                 </Button>
                 <Button href="/docs/homebrew" >
-                  New! Fleek for Homebrew
+                 Fleek for Homebrew
                 </Button>
                 <Button href="https://github.com/ublue-os/fleek" variant="secondary">
                   View on GitHub
