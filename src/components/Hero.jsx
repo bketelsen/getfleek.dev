@@ -60,6 +60,9 @@ export function Hero() {
                 <Button href="/docs/devbox" >
                   New! Fleek for Devbox
                 </Button>
+                <Button href="/docs/homebrew" >
+                  New! Fleek for Homebrew
+                </Button>
                 <Button href="https://github.com/ublue-os/fleek" variant="secondary">
                   View on GitHub
                 </Button>
