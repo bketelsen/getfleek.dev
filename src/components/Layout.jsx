@@ -16,8 +16,9 @@ const navigation = [
     title: 'Introduction',
     links: [
       { title: 'Fleek', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: 'For Nix', href: '/docs/installation' },
       { title: 'For Devbox', href: '/docs/devbox' },
+      { title: 'For Homebrew', href: '/docs/homebrew' },
       { title: 'First Steps', href: '/docs/firststeps' },
       { title: 'Sharing Configs', href: '/docs/multiple' },
       { title: 'Upgrade', href: '/docs/upgrade' },
