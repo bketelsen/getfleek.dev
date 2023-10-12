@@ -39,7 +39,12 @@ const navigation = [
       {
         title: 'Programs',
         href: '/docs/programs',
-      }],
+      },
+      {
+        title: "Overlays",
+        href: "/docs/overlays"
+      }
+    ],
   },
   {
     title: 'CLI Reference',
