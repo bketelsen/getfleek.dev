@@ -11,7 +11,7 @@ If you're just getting started with Nix, or if you don't care who the Man Behind
 
 ### The Red Pill - The Fleek CLI
 
-After you've [bootstrapped Fleek](/docs/installation) you can use the `fleek` CLI to manage your system. You can use the `fleek` CLI to install packages, manage your aliases and path, and more.
+After you've [bootstrapped Fleek](/docs/installation) you can use the [fleek CLI](/docs/cli/fleek) to manage your system. You can use the `fleek` CLI to install packages, manage your aliases and path, and more.
 
 
 ### The Blue Pill - The Fleek Generator
