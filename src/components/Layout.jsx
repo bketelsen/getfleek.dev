@@ -72,6 +72,8 @@ const navigation = [
       { title: 'system not found', href: '/docs/troubleshooting/system_not_found' },
 
       { title: 'flake does not provide attribute', href: '/docs/troubleshooting/flake_does_not_provide_attribute' },
+
+      { title: 'error during batCache step', href: '/docs/troubleshooting/error_during_batCache' },
     ],
   },
   /*{
